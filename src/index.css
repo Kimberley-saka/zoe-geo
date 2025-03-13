@@ -2,7 +2,7 @@
 
 
 body, html, #root {
-    padding: 0 !important; /* Forcefully remove padding */
-    margin: 0; /* Just in case */
+    padding: 0 !important;
+    margin: 0; 
     font-family: 'Roboto', sans-serif;
   }
