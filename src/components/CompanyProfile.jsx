@@ -2,9 +2,12 @@ import React from 'react'
 
 function CompanyProfile() {
   return (
-    <div className='grid grid-cols-2 gap-10'>
+    <div className='flex flex-row gap-10 bg-amber-500'>
+  
       <img src="../imgs/profile.jpg" alt="image" className='h-96' />
-      <div className='flex flex-col text-left gap-y-4'>
+      
+      <div className='flex flex-col text-left gap-y-4 md:w-2/3'>
+
       <h1 className='text-2xl text-extra-bold md:text-5xl text-bold '>Company Profile</h1>
       <p>A local Malawian company incorporated under the
         company's registration act. The company focuses on:
