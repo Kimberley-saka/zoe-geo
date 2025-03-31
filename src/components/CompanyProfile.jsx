@@ -2,12 +2,12 @@ import React from 'react'
 
 function CompanyProfile() {
   return (
-    <div className='flex md:flex-row md:gap-10 bg-amber-500'>
-      <div className='hidden md:flex h-96 md:w-1/2'>
+    <div className='flex flex-row justify-between gap-12'>
+      <div className='hidden md:flex'>
       <img src="../imgs/profile.jpg" alt="image"/>
       </div>
       
-      <div className='flex flex-col text-left gap-y-4 mx-4 md:w-1/2 '>
+      <div className='flex flex-col text-left gap-6 '>
 
       <h1 className='text-2xl text-extra-bold md:text-5xl text-bold '>Company Profile</h1>
       <p>A local Malawian company incorporated under the
