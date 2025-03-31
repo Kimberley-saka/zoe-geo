@@ -3,9 +3,9 @@ import React from 'react'
 function About() {
   return (
     <div className='grid grid-rows-3 text-left gap-10 md:grid-cols-3 '>
-      <div className='flex flex-col gap-6 bg-amber-300'>
-        <h1 className='text-3xl font-bold text-center bg-red-400'>Vision</h1>
-        <p>
+      <div className='flex flex-col gap-6'>
+        <h1 className='text-3xl font-bold text-center'>Vision</h1>
+        <p className='text-lg'>
         To be a recognized environmental and
         geoinformatics consultancy company
         that focuses on sustainable growth,
@@ -16,17 +16,17 @@ function About() {
         </p>
       </div>
 
-      <div className='flex flex-col gap-6'>
-        <h1 className='text-3xl font-bold'>Objective</h1>
+      <div className='flex flex-col gap-6 h-96'>
+        <h1 className='text-3xl font-bold text-center'>Objective</h1>
         <p>
-        ObjectiveMissionProviding environmental,
+        Providing environmental,
         GIS, andremote sensing services with 
         anunparalleled safety and environmentalrecord.
         </p>
       </div>
 
       <div className='flex flex-col gap-6'>
-        <h1 className='text-3xl font-bold'>Vision</h1>
+        <h1 className='text-3xl font-bold text-center'>Mission</h1>
         <p>
         we commit to continuous self-
         improvement and training to develop
