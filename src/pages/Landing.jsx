@@ -15,7 +15,7 @@ function landing() {
       
     </section>
 
-    <section id=" profile" className=" py-24 bg-black text-white">
+    <section id=" profile" className="py-24 bg-black text-white">
       <CompanyProfile/>
     </section>
 

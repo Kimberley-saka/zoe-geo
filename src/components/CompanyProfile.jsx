@@ -2,15 +2,16 @@ import React from 'react'
 
 function CompanyProfile() {
   return (
-    <div className='flex flex-row gap-10 bg-amber-500'>
-  
-      <img src="../imgs/profile.jpg" alt="image" className='h-96' />
+    <div className='flex md:flex-row md:gap-10 bg-amber-500'>
+      <div className='hidden md:flex h-96 md:w-1/2'>
+      <img src="../imgs/profile.jpg" alt="image"/>
+      </div>
       
-      <div className='flex flex-col text-left gap-y-4 md:w-2/3'>
+      <div className='flex flex-col text-left gap-y-4 mx-4 md:w-1/2 '>
 
       <h1 className='text-2xl text-extra-bold md:text-5xl text-bold '>Company Profile</h1>
       <p>A local Malawian company incorporated under the
-        company's registration act. The company focuses on:
+        company&apos;s registration act. The company focuses on:
         Carrying out Environmental Impact Assessment, conducting
         ESMP for projects of different nature, conducting
         environmental audits, developing project Briefs, conducting
