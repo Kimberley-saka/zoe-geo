@@ -17,7 +17,7 @@ function landing() {
       
     </section>
 
-    <section id=" profile" className=" p-8 md:py-24 md:px-20">
+    <section id=" profile" className=" p-8 md:pt-24 md:px-20">
       <CompanyProfile/>
     </section>
 
@@ -27,7 +27,7 @@ function landing() {
 
     </section>
 
-    <section id="services p-8">
+    <section id="services" className="p-8 md:px-20">
       <Services/>
     </section>
 
