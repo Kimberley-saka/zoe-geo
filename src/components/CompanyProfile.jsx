@@ -2,7 +2,7 @@ import React from 'react'
 
 function CompanyProfile() {
   return (
-    <div className='grid grid-rows-2 gap-8 mt-10 mb-52 max-h-96 md:grid-cols-2 md:gap-12 md:mt-0 md:mb-0'>
+    <div className='grid grid-rows-2 gap-8 mt-10 mb-82 max-h-96 md:grid-cols-2 md:gap-12 md:mt-0 md:mb-0'>
       <div className='md:flex md:h-96'>
       <img 
         src="../imgs/profile.jpg"
@@ -14,7 +14,7 @@ function CompanyProfile() {
       <div className='flex md:max-h-96 flex-col text-left gap-6 '>
 
       <h1 className='text-2xl text-extra-bold md:text-5xl text-bold '>Company Profile</h1>
-      <p>A local Malawian company incorporated under the
+      <p className='text-lg'>A local Malawian company incorporated under the
         company&apos;s registration act. The company focuses on:
         Carrying out Environmental Impact Assessment, conducting
         ESMP for projects of different nature, conducting
