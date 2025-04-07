@@ -17,17 +17,17 @@ function landing() {
       
     </section>
 
-    <section id=" profile" className="py-24 px-20">
+    <section id=" profile" className=" p-8 md:py-24 md:px-20">
       <CompanyProfile/>
     </section>
 
 
-    <section id="about" className="bg-black px-20 py-24">
+    <section id="about" className="bg-black p-8 md:px-20 md:py-24">
       <About/>
 
     </section>
 
-    <section id="services">
+    <section id="services p-8">
       <Services/>
     </section>
 
