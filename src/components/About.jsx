@@ -2,9 +2,9 @@ import React from 'react'
 
 function About() {
   return (
-    <div className='grid grid-rows-3 text-left gap-10 md:max-h-96 md:grid-cols-3 '>
-      <div className='flex flex-col gap-6'>
-        <h1 className='text-3xl font-bold text-center'>Vision</h1>
+    <div className='flex flex-col gap-y-5 text-left md:max-h-96 md:grid md:grid-cols-3 '>
+      <div className='flex flex-col gap-2 md:gap-6'>
+        <h1 className='text-3xl font-bold md:text-center'>Vision</h1>
         <p className='text-lg'>
         To be a recognized environmental and
         geoinformatics consultancy company
@@ -16,8 +16,8 @@ function About() {
         </p>
       </div>
 
-      <div className='flex flex-col gap-6 h-96'>
-        <h1 className='text-3xl font-bold text-center'>Objective</h1>
+      <div className='flex flex-col gap-2 md:gap-6'>
+        <h1 className='text-3xl font-bold md:text-center'>Objective</h1>
         <p>
         Providing environmental,
         GIS, andremote sensing services with 
@@ -25,8 +25,8 @@ function About() {
         </p>
       </div>
 
-      <div className='flex flex-col gap-6'>
-        <h1 className='text-3xl font-bold text-center'>Mission</h1>
+      <div className='flex flex-col gap-2 md:gap-6'>
+        <h1 className='text-3xl font-bold md:text-center'>Mission</h1>
         <p>
         we commit to continuous self-
         improvement and training to develop

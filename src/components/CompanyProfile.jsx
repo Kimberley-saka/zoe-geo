@@ -2,11 +2,16 @@ import React from 'react'
 
 function CompanyProfile() {
   return (
-    <div className='flex flex-row justify-between gap-12'>
-      <div className='hidden md:flex'>
-      <img src="../imgs/profile.jpg" alt="image"/>
+    <div className='grid grid-cols-2 gap-12 bg-amber-400 max-h-96'>
+      <div className='flex w-full h-full max-h-full overflow-hidden'>
+      <img 
+        src="../imgs/profile.jpg"
+        alt="image"
+        className='w-full h-full object-cover'/>
+
       </div>
-      
+
+    
       <div className='flex flex-col text-left gap-6 '>
 
       <h1 className='text-2xl text-extra-bold md:text-5xl text-bold '>Company Profile</h1>
