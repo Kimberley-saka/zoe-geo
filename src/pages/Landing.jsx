@@ -2,6 +2,7 @@ import NavBar from "../components/NavBar"
 import Hero from "../components/Hero"
 import CompanyProfile from "../components/CompanyProfile"
 import About from "../components/About"
+import Services from "../components/Services"
 
 function landing() {
   return (
@@ -24,6 +25,10 @@ function landing() {
     <section id="about" className="bg-black px-20 py-24">
       <About/>
 
+    </section>
+
+    <section id="services">
+      <Services/>
     </section>
 
     </>

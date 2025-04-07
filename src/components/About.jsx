@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div className='grid grid-rows-3 text-left gap-10 md:grid-cols-3 '>
+    <div className='grid grid-rows-3 text-left gap-10 md:max-h-96 md:grid-cols-3 '>
       <div className='flex flex-col gap-6'>
         <h1 className='text-3xl font-bold text-center'>Vision</h1>
         <p className='text-lg'>
