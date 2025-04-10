@@ -61,7 +61,7 @@ function Services() {
             </div>
           </div>
 
-          <div className='flex justify-center'>
+          <div className='flex h-full items-end justify-center'>
           <button className='bg-gray-500 w-26 h-8'
           >Learn More</button>
           </div>
@@ -85,8 +85,8 @@ function Services() {
 
           </div>
 
-          <div className='flex justify-center'>
-          <button className='bg- w-26 h-8'
+          <div className='flex h-full items-end justify-center'>
+          <button className='bg-gray-500 w-26 h-8'
           >Learn More</button>
           </div>
           
