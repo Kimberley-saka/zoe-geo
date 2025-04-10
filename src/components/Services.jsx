@@ -1,5 +1,7 @@
 import checkmark from '../assets/checkmark.svg';
 import ArrowRight from '../assets/arrow-right.svg';
+import LearnMoreButton from './LearnMoreButton';
+
 
 function Services() {
   return (
@@ -30,16 +32,9 @@ function Services() {
             </div>
 
           </div>
-
-          <div className='flex justify-center'>
-          <button className='bg-gray-500 w-26 h-8'
-          >Learn More</button>
-          </div>
-          
+          <LearnMoreButton/>          
 
         </div>
-
-
 
         <div className='flex flex-col py-6 border-0 rounded-2xl
         gap-y-4 shadow-[0_0_5px_#ffffff] transition-all duration-300'>
@@ -60,15 +55,8 @@ function Services() {
               <img src={checkmark} alt="checkmark" className='w-4 h-4' />
               <p>Aerial Image capture</p>
             </div>
-          </div>
-
-          <div className='flex h-full items-end justify-center'>
-            <button className='border-2 border-white w-32 h-8'
-            >Learn More
-            </button>
-            <img src="" alt="" />
-          </div>
-          
+          </div>          
+          <LearnMoreButton/>
 
         </div>
 
@@ -83,19 +71,12 @@ function Services() {
               <img src={checkmark} alt="checkmark" className='' />
               </div>
               
-              <p>Equiping individuals and organizations with skills to analyze, visualize, and managespatial data</p>
+              <p>Equiping individuals and organizations with skills to analyze, visualize, and manage spatial data</p>
             </div>
 
           </div>
 
-          <div className='flex h-full items-center justify-center'>
-          <button className='border-2 border-white w-32 h-8 flex items-center
-          hover:scale-102 transition-all duration-200 justify-center gap-2 '
-          >Learn More
-          <img src={ArrowRight} alt="arrow" className='w-4 h-4' />
-          </button>
-          
-          </div>
+          <LearnMoreButton/>
           
         </div>
 
