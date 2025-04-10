@@ -1,4 +1,4 @@
-import React from 'react'
+import LearnMoreButton from "./LearnMoreButton"
 
 function CompanyProfile() {
   return (
@@ -24,8 +24,10 @@ function CompanyProfile() {
         consultancy also provide services like map making and
         others
     </p>
-       <button className=' border-white border-2 h-8 md:h-14 w-32'
-       >Learn More</button>
+    <div className="mt-8">
+    <LearnMoreButton/>
+    </div>
+      
       </div>
   
     </div>

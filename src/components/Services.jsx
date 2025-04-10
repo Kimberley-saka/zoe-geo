@@ -1,5 +1,4 @@
 import checkmark from '../assets/checkmark.svg';
-import ArrowRight from '../assets/arrow-right.svg';
 import LearnMoreButton from './LearnMoreButton';
 
 
@@ -32,7 +31,10 @@ function Services() {
             </div>
 
           </div>
-          <LearnMoreButton/>          
+          <div className='flex h-full items-center justify-center'>
+          <LearnMoreButton/>     
+          </div>
+               
 
         </div>
 
@@ -56,7 +58,9 @@ function Services() {
               <p>Aerial Image capture</p>
             </div>
           </div>          
-          <LearnMoreButton/>
+          <div className='flex h-full items-center justify-center'>
+          <LearnMoreButton/>     
+          </div>
 
         </div>
 
@@ -76,7 +80,9 @@ function Services() {
 
           </div>
 
-          <LearnMoreButton/>
+          <div className='flex h-full items-center justify-center'>
+          <LearnMoreButton/>     
+          </div>
           
         </div>
 
