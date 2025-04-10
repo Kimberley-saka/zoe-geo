@@ -4,7 +4,7 @@ import LearnMoreButton from './LearnMoreButton';
 
 function Services() {
   return (
-    <div className='flex flex-col gap-y-8 h-1/2 bg-blue-700'>
+    <div className='flex flex-col gap-y-8 h-1/2'>
       <h1 className='text-2xl text-left md:text-5xl'
       >What We Offer</h1>
 
