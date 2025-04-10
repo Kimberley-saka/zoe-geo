@@ -1,4 +1,5 @@
 import checkmark from '../assets/checkmark.svg';
+import ArrowRight from '../assets/arrow-right.svg';
 
 function Services() {
   return (
@@ -12,16 +13,6 @@ function Services() {
           <h2 className='text-xl md:text-2xl font-bold'>GIS</h2>
           <img src="../imgs/gis.jpg" alt=""/>
           <div className='flex flex-col gap-1.5 text-left p-3'>
-            <div className='flex gap-x-2 items-center'>
-              <img src={checkmark} alt="checkmark" className='w-4 h-4' />
-              <p>Image analysis and interpretation</p>
-            </div>
-
-            <div className='flex gap-x-2 items-center'>
-              <img src={checkmark} alt="checkmark" className='w-4 h-4' />
-              <p>Aerial Image capture</p>
-            </div>
-
 
             <div className='flex gap-x-2 items-center'>
               <img src={checkmark} alt="checkmark" className='w-4 h-4' />
@@ -59,11 +50,23 @@ function Services() {
               <img src={checkmark} alt="checkmark" className='w-4 h-4' />
               <p>Image Classification</p>
             </div>
+
+            <div className='flex gap-x-2 items-center'>
+              <img src={checkmark} alt="checkmark" className='w-4 h-4' />
+              <p>Image analysis and interpretation</p>
+            </div>
+
+            <div className='flex gap-x-2 items-center'>
+              <img src={checkmark} alt="checkmark" className='w-4 h-4' />
+              <p>Aerial Image capture</p>
+            </div>
           </div>
 
           <div className='flex h-full items-end justify-center'>
-          <button className='bg-gray-500 w-26 h-8'
-          >Learn More</button>
+            <button className='border-2 border-white w-32 h-8'
+            >Learn More
+            </button>
+            <img src="" alt="" />
           </div>
           
 
@@ -85,9 +88,13 @@ function Services() {
 
           </div>
 
-          <div className='flex h-full items-end justify-center'>
-          <button className='bg-gray-500 w-26 h-8'
-          >Learn More</button>
+          <div className='flex h-full items-center justify-center'>
+          <button className='border-2 border-white w-32 h-8 flex items-center
+          hover:scale-102 transition-all duration-200 justify-center gap-2 '
+          >Learn More
+          <img src={ArrowRight} alt="arrow" className='w-4 h-4' />
+          </button>
+          
           </div>
           
         </div>

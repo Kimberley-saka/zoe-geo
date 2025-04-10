@@ -3,6 +3,7 @@ import Hero from "../components/Hero"
 import CompanyProfile from "../components/CompanyProfile"
 import About from "../components/About"
 import Services from "../components/Services"
+import CTA from "../components/CTA"
 
 function landing() {
   return (
@@ -29,6 +30,10 @@ function landing() {
 
     <section id="services" className="p-8 md:px-20">
       <Services/>
+    </section>
+
+    <section id="cta" className="bg-black p-8 md:px-20 md:py-24">
+      <CTA/>
     </section>
 
     </>
