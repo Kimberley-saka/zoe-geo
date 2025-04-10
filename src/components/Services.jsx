@@ -4,11 +4,11 @@ import LearnMoreButton from './LearnMoreButton';
 
 function Services() {
   return (
-    <div className='flex flex-col gap-y-8'>
+    <div className='flex flex-col gap-y-8 h-1/2 bg-blue-700'>
       <h1 className='text-2xl text-left md:text-5xl'
       >What We Offer</h1>
 
-      <div className='grid grid-rows-3 gap-12 md:grid-cols-3'>
+      <div className='grid gap-12 md:grid-cols-3'>
         <div className='flex flex-col py-6 border-0 rounded-2xl
         gap-y-4 shadow-[0_0_5px_#ffffff] transition-all duration-300'>
           <h2 className='text-xl md:text-2xl font-bold'>GIS</h2>
