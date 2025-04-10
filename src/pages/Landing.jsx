@@ -32,7 +32,7 @@ function landing() {
       <Services/>
     </section>
 
-    <section id="cta" className="bg-black p-8 md:px-20 md:py-24">
+    <section id="cta" className="bg-black p-8 md:px-20">
       <CTA/>
     </section>
 
